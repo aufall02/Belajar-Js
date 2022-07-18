@@ -1,0 +1,36 @@
+/*Complte the the CSS styling  according to the  propivided design*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("image/img1.jpg");
+    background-size: cover;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+/* style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+make sure that two buttons have some between each other when they are rendered out vertically*/
+
+
+button{
+    border: none;
+    border-radius: 2px;
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-bottom: 2px;
+}
+h1{
+    color: goldenrod;
+}
+ 
+#message-el{
+    font-style: italic;
+}
